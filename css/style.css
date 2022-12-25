@@ -204,7 +204,7 @@ html,body {
     line-height: 171%;
     color: #737373;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .menu__link:hover {
         text-decoration: underline;
     }
@@ -436,7 +436,7 @@ html,body {
 .progress {
 }
 .progress__inner {
-    padding: 80px 0;
+    padding: 100px 0;
 }
 @media (max-width: 768px) {
     .progress__inner {
@@ -493,7 +493,10 @@ html,body {
 }
 
 /* practice----------------------------------------------------- */
+.practice{
+}
 .practice__inner {
+    padding: 100px 0 80px;
 }
 .practice__body {
     display: grid;
@@ -788,8 +791,7 @@ html,body {
 .contact {
 }
 .contact__top {
-    padding-top: 80px;
-    padding-bottom: 178px;
+    padding: 100px 0 178px;
     background-color: #F3F3F3;
 }
 @media (max-width: 992px) {
@@ -990,7 +992,7 @@ html,body {
     line-height: 171%;
     letter-spacing: 0.2px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .footer__link:hover {
         text-decoration: underline;
     }
@@ -1034,7 +1036,7 @@ html,body {
     cursor: pointer;
     transition: transform linear .1s;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .social__item:hover {
         transform: scale(1.2);
     }
