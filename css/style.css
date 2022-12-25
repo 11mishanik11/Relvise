@@ -204,6 +204,11 @@ html,body {
     line-height: 171%;
     color: #737373;
 }
+@media (min-width: 768px) {
+    .menu__link:hover {
+        text-decoration: underline;
+    }
+}
 @media (max-width: 768px) {
     .menu__link {
         font-size: 24px;
